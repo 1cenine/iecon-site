@@ -58,3 +58,8 @@ details { margin-top: .3em; font-size: .93rem; }
 summary { cursor: pointer; color: var(--muted); font-family: system-ui, sans-serif; font-size: .85rem; }
 details p { background: var(--card); padding: 10px 14px; border-radius: 4px; margin-top: .4em; }
 footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; padding: 18px 0 30px; font-family: system-ui, sans-serif; }
+.filter input { font: inherit; padding: 4px 8px; background: var(--bg); color: var(--fg); border: 1px solid var(--rule); border-radius: 4px; width: min(16rem, 100%); margin-right: 8px; }
+.filter { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; }
+.count { color: var(--muted); }
+.year { color: var(--muted); font-style: normal; }
+.award { margin: .1em 0; font-size: .88rem; color: var(--accent); font-family: system-ui, sans-serif; }
